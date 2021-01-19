@@ -72,4 +72,5 @@ function resetHandler(e) {
     turn = 0;
     cell.forEach(cell => cell.style.backgroundColor = "white");
     cell.forEach(cell => cell.setAttribute('data-score', ""));
+    document.querySelector('.results').innerHTML = null;
 }
