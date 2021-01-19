@@ -1,24 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.results {
+    margin: 0 auto;
+}
+
 .board {
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     width: 470px;
-    margin: 0 auto;
-    padding-top: 50px;
 }
 
 .cell {
-    height: 150px;
     width: 150px;
-    padding: 0px;
-    border: 1px solid black;
+    height: 150px;
     margin: 2px;
-    cursor: pointer;
+    border: 1px solid black;
 }
 
-.reset {
-    display: block;
+button {
+    font-size: 24px;
     margin: 0 auto;
     margin-top: 20px;
-    font-size: 24px;
-    border-radius: 5px;
 }
